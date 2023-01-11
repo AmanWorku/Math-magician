@@ -1,7 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import calculate from '../logic/calculate';
-import Buttons from './buttons';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -32,7 +31,29 @@ class Calculator extends React.Component {
             {next}
           </p>
         </div>
-        <Buttons />
+        <button type="button" onClick={this.handleClick}>AC</button>
+        <button type="button" onClick={this.handleClick}>+/-</button>
+        <button type="button" onClick={this.handleClick}>%</button>
+        <button type="button" onClick={this.handleClick} className="operator">÷</button>
+
+        <button type="button" onClick={this.handleClick}>7</button>
+        <button type="button" onClick={this.handleClick}>8</button>
+        <button type="button" onClick={this.handleClick}>9</button>
+        <button type="button" onClick={this.handleClick} className="operator">x</button>
+
+        <button type="button" onClick={this.handleClick}>4</button>
+        <button type="button" onClick={this.handleClick}>5</button>
+        <button type="button" onClick={this.handleClick}>6</button>
+        <button type="button" onClick={this.handleClick} className="operator">-</button>
+
+        <button type="button" onClick={this.handleClick}>1</button>
+        <button type="button" onClick={this.handleClick}>2</button>
+        <button type="button" onClick={this.handleClick}>3</button>
+        <button type="button" onClick={this.handleClick} className="operator">+</button>
+
+        <button type="button" onClick={this.handleClick} className="zero">0</button>
+        <button type="button" onClick={this.handleClick}>.</button>
+        <button type="button" onClick={this.handleClick} className="operator">=</button>
       </div>
     );
   }
