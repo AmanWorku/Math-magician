@@ -26,7 +26,6 @@ function Calculator() {
           {next}
         </p>
       </div>
-
       <button type="button" onClick={handleClick}>
         AC
       </button>
