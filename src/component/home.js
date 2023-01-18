@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HomePage = () => {
+const HomePage = () => (
   <>
     <h2>Welcome to our page!</h2>
     <p className="paragraph">
@@ -23,7 +23,7 @@ const HomePage = () => {
       Debitis porro praesentium placeat laudantium aperisapiente id magnam perspiciatis i
       Repellat rem consequatur ducimus expedita magnam ex! Eanam dignissimos? Dolorem deser
     </p>
-  </>;
-};
+  </>
+);
 
 export default HomePage;
