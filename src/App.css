@@ -2,16 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.calc-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em 10em;
 }
 
 .calculator {
-  margin: 20px auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 80px;
   padding: 5%;
   background-color: rgb(182, 182, 182);
-  width: 60%;
+  width: 40%;
   border-radius: 30px;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
@@ -53,4 +60,54 @@ button:hover {
 
 .operator:hover {
   background-color: rgb(176, 116, 4);
+}
+
+h1 {
+  font-size: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 2em;
+  box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: rgb(44, 44, 44);
+  text-decoration: none;
+}
+
+nav a.active {
+  color: rgb(77, 3, 3);
+  border-bottom: 2px solid rgb(77, 3, 3);
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2em 10em;
+  font-size: 1.3em;
+  gap: 40px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  width: 60%;
+  padding: 4em 9em;
+  font-size: 1.7em;
+}
+
+.title {
+  text-align: right;
+  font-style: italic;
+  color: rgb(104, 104, 104);
 }
