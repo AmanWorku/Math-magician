@@ -11,6 +11,7 @@
   justify-content: space-between;
   padding: 2em 10em;
 }
+
 .calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -87,3 +88,26 @@ nav a.active {
   border-bottom: 2px solid rgb(77, 3, 3);
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2em 10em;
+  font-size: 1.3em;
+  gap: 40px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  width: 60%;
+  padding: 4em 9em;
+  font-size: 1.7em;
+}
+
+.title {
+  text-align: right;
+  font-style: italic;
+  color: rgb(104, 104, 104);
+}

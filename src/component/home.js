@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HomePage = () => (
-  <>
+  <div className="home-container">
     <h2>Welcome to our page!</h2>
     <p className="paragraph">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -23,7 +23,7 @@ const HomePage = () => (
       Debitis porro praesentium placeat laudantium aperisapiente id magnam perspiciatis i
       Repellat rem consequatur ducimus expedita magnam ex! Eanam dignissimos? Dolorem deser
     </p>
-  </>
+  </div>
 );
 
 export default HomePage;
