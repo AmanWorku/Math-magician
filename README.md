@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can visit the [Live Demo Website](https://amanworku.github.io/Math-magician/).
+You can visit the [Live Demo Website](https://calculator-by-aman.onrender.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
